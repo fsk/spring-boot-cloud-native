@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/department-service/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-employee/pom.xml" />
+        <option value="$PROJECT_DIR$/fegin-address/pom.xml" />
+        <option value="$PROJECT_DIR$/employee-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -21,6 +24,8 @@
         <option value="$PROJECT_DIR$/SCConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/department-service/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/fegin-address/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-employee/pom.xml" />
       </set>
     </option>
   </component>

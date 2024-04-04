@@ -13,6 +13,8 @@
 #   profiles:
 #     active: dev
 
+#######################################################
+
 ## GITHUB CONFIG-CLIENT
 server:
   port: 8181
@@ -24,8 +26,24 @@ spring:
     name: department-service
   config:
     import: "optional:configserver:http://localhost:8585"
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
-    register-with-eureka: true
+
+#######################################################
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+#    register-with-eureka: true
+
+
+#######################################################
+
+#feign:
+#  client:
+#    config:
+#      default:
+#        read-timeout: 5000
+#        metrics:
+#          enabled: true
+#        logger-level: full
+#        connectTimeout: 5000

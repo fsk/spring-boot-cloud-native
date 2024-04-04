@@ -2,16 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-discovery-eureka" />
         <module name="config-server" />
+        <module name="employee-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="21" />
+      <module name="fegin-address" target="21" />
+      <module name="feign-employee" target="21" />
       <module name="SCConfigClient" target="21" />
       <module name="SCConfigServer" target="21" />
     </bytecodeTargetLevel>
@@ -22,7 +26,10 @@
       <module name="SCConfigServer" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="department-service" options="-parameters" />
+      <module name="employee-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="fegin-address" options="-parameters" />
+      <module name="feign-employee" options="-parameters" />
       <module name="service-discovery-eureka" options="-parameters" />
     </option>
   </component>

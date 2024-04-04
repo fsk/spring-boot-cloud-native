@@ -1,0 +1,11 @@
+## GITHUB CONFIG-CLIENT
+server:
+  port: 8282
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: employee-service
+  config:
+    import: "optional:configserver:http://localhost:8585"

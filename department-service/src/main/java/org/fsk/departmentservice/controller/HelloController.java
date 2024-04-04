@@ -14,4 +14,5 @@ public class HelloController {
     public String getConfigValue() {
         return projectDescription;
     }
+
 }

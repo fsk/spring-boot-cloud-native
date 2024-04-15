@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/feign-employee/pom.xml" />
         <option value="$PROJECT_DIR$/fegin-address/pom.xml" />
         <option value="$PROJECT_DIR$/employee-service/pom.xml" />
+        <option value="$PROJECT_DIR$/organization-service/pom.xml" />
+        <option value="$PROJECT_DIR$/apigateway-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

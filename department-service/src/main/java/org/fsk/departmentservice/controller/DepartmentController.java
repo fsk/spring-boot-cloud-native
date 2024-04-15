@@ -37,7 +37,7 @@ public class DepartmentController {
 
     @GetMapping("/")
     public List<Department> findAll() {
-        LOGGER.info("Department find");
+        LOGGER.info("Department find all");
         return repository.findAll();
     }
 

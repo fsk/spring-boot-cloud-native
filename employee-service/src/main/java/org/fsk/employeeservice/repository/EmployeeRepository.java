@@ -1,11 +1,13 @@
 package org.fsk.employeeservice.repository;
 
 import org.fsk.employeeservice.models.Employee;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class EmployeeRepository {
 
     private List<Employee> employees = new ArrayList<>();

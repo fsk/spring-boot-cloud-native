@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-discovery-eureka" />
         <module name="config-server" />
+        <module name="organization-service" />
+        <module name="service-discovery-eureka" />
+        <module name="apigateway-service" />
         <module name="employee-service" />
       </profile>
     </annotationProcessing>
@@ -24,12 +26,14 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SCConfigClient" options="-parameters" />
       <module name="SCConfigServer" options="-parameters" />
+      <module name="apigateway-service" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="department-service" options="-parameters" />
       <module name="employee-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="fegin-address" options="-parameters" />
       <module name="feign-employee" options="-parameters" />
+      <module name="organization-service" options="-parameters" />
       <module name="service-discovery-eureka" options="-parameters" />
     </option>
   </component>

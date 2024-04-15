@@ -33,7 +33,7 @@ public class EmployeeController {
 
     @GetMapping("/")
     public List<Employee> findAll() {
-        LOGGER.info("Employee find");
+        LOGGER.info("Employee findAll");
         return repository.findAll();
     }
 

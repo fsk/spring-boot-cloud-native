@@ -12,7 +12,7 @@ public class DepartmentRepository {
     private List<Department> departments = new ArrayList<>();
 
     public Department add(Department department) {
-        department.setId((long) (departments.size()+1));
+        department.setId((long)(departments.size()+1));
         departments.add(department);
         return department;
     }

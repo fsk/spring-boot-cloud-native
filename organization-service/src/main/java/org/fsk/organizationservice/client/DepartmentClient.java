@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "department-service")
+@FeignClient(name = "organization-department-service", url = "department-service")
 @Service
 public interface DepartmentClient {
 
 
     @GetMapping("/organization/{organizationId}")
-    public List<Department> findByOrganization(@PathVariable("organizationId") Long organizationId);
+    List<Department> findByOrganization(@PathVariable("organizationId") Long organizationId);
 
     @GetMapping("/organization/{organizationId}/with-employees")
-    public List<Department> findByOrganizationWithEmployees(@PathVariable("organizationId") Long organizationId);
+    List<Department> findByOrganizationWithEmployees(@PathVariable("organizationId") Long organizationId);
 
 }

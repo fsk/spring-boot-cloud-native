@@ -1,7 +1,9 @@
+server:
+  port: 4040
+
 spring:
   application:
     name: apigateway-service
   config:
     import: "optional:configserver:http://localhost:8585"
-server:
-  port: 7171
+

@@ -1,6 +1,6 @@
 ## GITHUB CONFIG-CLIENT
 server:
-  port: 8282
+  port: 6060
 
 spring:
   profiles:

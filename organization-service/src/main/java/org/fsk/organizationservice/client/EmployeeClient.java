@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "department-service")
+@FeignClient(name = "organization-employee-service", url = "employee-service")
 @Service
 public interface EmployeeClient {
 
